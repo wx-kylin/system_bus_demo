@@ -1,9 +1,6 @@
 #include <QCoreApplication>
-#include <QDBusConnection>
-#include <QDBusError>
-
 #include <QDebug>
-
+#include <QDBusConnection>
 #include "sysdbusregister.h"
 
 int main(int argc, char *argv[])
@@ -23,5 +20,6 @@ int main(int argc, char *argv[])
         exit(2);
     }
     qDebug() << "ok";
+
     return a.exec();
 }
