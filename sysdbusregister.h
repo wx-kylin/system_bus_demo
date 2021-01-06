@@ -14,7 +14,7 @@ class SysdbusRegister : public QObject, protected QDBusContext
 
     Q_CLASSINFO("D-Bus Interface", "com.demo.interface")
 public:
-    explicit SysdbusRegister();
+    SysdbusRegister();
     ~SysdbusRegister();
 private:
 
